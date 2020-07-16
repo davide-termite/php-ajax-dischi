@@ -1,0 +1,44 @@
+.track-card{
+  @include flex-col;
+
+  margin: 10px;
+
+  width: 250px;
+
+  background-color: $primary-color;
+
+  text-align: center;
+
+
+  .track-poster{
+    width: 200px;
+    margin: 25px;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  .track-infos{
+    @include flex-col;
+
+    margin: 25px;
+
+    h2{
+      margin-bottom: 25px;
+
+      height: 80px;
+
+      color: $text-color;
+      text-transform: uppercase;
+    }
+
+    h5,span{
+      justify-content: flex-end;
+      color: $sub-text-color;
+      font-size: 16px;
+    }
+  }
+
+
+}

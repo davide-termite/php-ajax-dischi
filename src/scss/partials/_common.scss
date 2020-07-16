@@ -1,0 +1,27 @@
+// General Layout
+header{
+  @include header-fix;
+
+  height: $header-height;
+  background-color: $primary-color;
+}
+
+body{
+  margin-top: $header-height;
+
+  background-color: $background-color;
+  font-family: "Lato", sans-serif;
+}
+// End General Layout
+
+// Container settings
+.container{
+  @include flex-row;
+
+  width: 80%;
+  margin: 0 auto;
+  overflow-y: scroll;
+
+  flex-wrap: wrap;
+}
+// End Container settings

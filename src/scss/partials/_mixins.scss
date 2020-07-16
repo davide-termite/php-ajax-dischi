@@ -1,0 +1,19 @@
+// Mixin Flex
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-col{
+  display: flex;
+  flex-direction: column;
+}
+// End Mixin Flex
+
+// Header Fixed
+@mixin header-fix{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+// End Header Fixed
